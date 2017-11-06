@@ -1,3 +1,7 @@
-- connection needs the current database to handle and optional Params: (presented as overloaded constructors)
---> Param: configpath - e.g. if u wanna use files for reading configs
---> ... issue: overload connection constructor
+Required: JDK 1.8
+
+MongoDBDriver-Version: 3.4.3
+
+Running with config-properties:
+- param configfilepath with content: databasename, ip, port
+
